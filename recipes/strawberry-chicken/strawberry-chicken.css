@@ -15,26 +15,26 @@ p {
   flex-direction: row;
 }
 
-#filet-image-container {
+#strawberry-chicken-image-container {
   margin-right: 20px;
 }
 
-#filet-image {
+#strawberry-chicken-image {
   border-radius: 50%;
   border: 5px solid #f5f5f5;
 }
 
-#filet-image-title {
+#strawberry-chicken-image-title {
   text-align: center;
 }
 
-#filet-description-container,
-#filet-steps-container {
+#strawberry-chicken-description-container,
+#strawberry-chicken-steps-container {
   margin-left: 20px;
   margin-top: 25px;
 }
 
-#filet-ingredients-container {
+#strawberry-chicken-ingredients-container {
   font-size: 25px;
   line-height: 1.5;
   margin-left: 20px;
