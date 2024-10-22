@@ -40,13 +40,20 @@ p {
   margin-left: 20px;
 }
 
+#left-page-container {
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
 #right-page-container {
   font-size: 25px;
   padding: 5px;
-  background-color: #b2ac88;
+  background-color: #d4cfb4;
   border-radius: 10px;
   opacity: 0.8;
   line-height: 1.5;
+  margin-top: 45px;
+  margin-right: 20px;
 }
 
 #footer-container {
