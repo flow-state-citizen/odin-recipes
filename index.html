@@ -10,26 +10,41 @@
 
 <body>
     <div id="header-container">
-        <div><a href="index.html">Odin Recipes: Date Night Edition</a></div>
-        <div><a href="recipes/filet-mignon/filet-mignon.html">Filet Mignon</a>
-            <a href="recipes/baked-potato.html">Baked Potatos</a>
-            <a href="recipes/strawberry-chicken/strawberry-chicken.html">Strawberry Chicken Salad</a>
+        <div id="header-title">
+            <button class="header-title-button" onclick="location.href=index.html">Odin Recipes: Date Night
+                Edition</button>
+        </div>
+        <div id="header-links">
+            <button class="header-link-buttons" onclick="location.href='recipes/filet-mignon/filet-mignon.html'">Filet
+                Mignon</button>
+            <button class="header-link-buttons" onclick="location.href='recipes/baked-potatos/baked-potatos.html'">Baked
+                Potatos</button>
+            <button class="header-link-buttons"
+                onclick="location.href='recipes/strawberry-chicken/strawberry-chicken.html'">Strawberry Chicken
+                Salad</button>
         </div>
     </div>
-    <h1>Odin Recipes: Date Night Edition</h1>
-    <h2>Description</h2>
-    <p>Looking for the perfect date night meal? You’ve just found it. Impress your special someone with a juicy,
-        melt-in-your-mouth Filet Mignon, a perfectly baked potato that’s crispy outside and fluffy inside, and a
-        refreshing Strawberry Chicken Salad that adds a sweet, fresh twist. This trio is the ultimate go-to for a
-        romantic dinner—simple, delicious, and guaranteed to earn you some extra brownie points!</p>
-    <p>Pair it all with a bottle of Cabernet Sauvignon (Silver Oak Napa Valley) or a light Pinot Noir (La Crema Sonoma
-        Coast) to bring out the flavors, and you’ve got a
-        romantic dinner that’s simple, delicious, and guaranteed to earn you some extra brownie points!</p>
-    <ul>
-        <li><a href="recipes/filet-mignon/filet-mignon.html">Filet Mignon</a></li>
-        <li><a href="recipes/baked-potato.html">Baked Potatos</a></li>
-        <li><a href="recipes/strawberry-chicken/strawberry-chicken.html">Strawberry Chicken Salad</a></li>
-    </ul>
+
+    <div id="content-container">
+        <p>Looking for the perfect date night meal? You’ve just found it.</p>
+
+        <p>
+            Impress your special someone with a juicy,
+            melt-in-your-mouth <span class="bold">Filet Mignon</span>, a perfectly <span class="bold">baked
+                potato</span> that’s crispy outside and fluffy inside, and a
+            refreshing <span class="bold">Strawberry Chicken Salad</span> that adds a sweet, fresh twist. This trio is
+            the ultimate go-to for a
+            romantic dinner—simple, delicious, and guaranteed to earn you some extra brownie points!
+        </p>
+        <p>Pair it all with a bottle of Cabernet Sauvignon (<a
+                href="https://www.vivino.com/US-CA/en/silver-oak-napa-valley-cabernet-sauvignon/w/3069?ref=nav-search"
+                target="_blank" rel="noopener noreferrer">Silver
+                Oak Napa Valley</a>) or a light Pinot Noir (<a
+                href="https://www.vivino.com/US-CA/en/la-crema-sonoma-coast-pinot-noir/w/9108?ref=nav-search"
+                target="_blank" rel="noopener noreferrer">La Crema Sonoma</a>) to bring out the flavors, and you’ve got
+            a
+            romantic dinner that’s simple, delicious, and guaranteed to earn you some extra brownie points!</p>
+    </div>
 </body>
 
 </html>
