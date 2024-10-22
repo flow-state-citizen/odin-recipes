@@ -26,22 +26,10 @@ p {
   text-align: center;
 }
 
-#filet-description-container {
+#filet-description-container,
+#filet-steps-container {
   margin-left: 20px;
   margin-top: 25px;
-}
-
-#description-paragraphs {
-  padding: 5px;
-  background-color: #b2ac88;
-  border-radius: 10px;
-  opacity: 0.8;
-}
-
-#lower-page-container {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
 }
 
 #filet-ingredients-container {
@@ -50,7 +38,7 @@ p {
   margin-left: 20px;
 }
 
-#filet-steps-container {
+#right-page-container {
   font-size: 25px;
   padding: 5px;
   background-color: #b2ac88;
