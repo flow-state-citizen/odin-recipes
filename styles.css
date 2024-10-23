@@ -105,6 +105,12 @@ a {
   height: 360px;
 }
 
+.image-description {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
 /* Section 3: Recipe Pages */
 #left-page-container {
   margin-top: 45px;
