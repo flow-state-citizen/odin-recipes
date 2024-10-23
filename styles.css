@@ -104,3 +104,12 @@ a {
   width: 546px;
   height: 360px;
 }
+
+/* Section 3: Recipe Pages */
+.steps-container ul {
+  line-height: 5;
+}
+
+.steps-container li {
+  line-height: 1.5;
+}
