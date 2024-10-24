@@ -16,7 +16,11 @@ p {
 }
 
 #potato-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 20px;
+  width: 500px;
 }
 
 #potato-image {
@@ -40,17 +44,40 @@ p {
   margin-left: 20px;
 }
 
-#right-page-container {
-  font-size: 25px;
-  padding: 5px;
-  background-color: #b2ac88;
-  border-radius: 10px;
-  opacity: 0.8;
-  line-height: 1.5;
-}
-
 #footer-container {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  #page-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #left-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #potato-image-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #potato-ingredients-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+    width: 500px;
+  }
+
+  #potato-ingredients-container ul {
+    margin-left: 20px;
+  }
 }

@@ -7,7 +7,7 @@ body {
 
 p {
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 #page-content-container {
@@ -16,7 +16,11 @@ p {
 }
 
 #strawberry-chicken-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 20px;
+  width: 500px;
 }
 
 #strawberry-chicken-image {
@@ -44,4 +48,36 @@ p {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  #page-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #left-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #strawberry-chicken-image-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #strawberry-chicken-ingredients-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+    width: 500px;
+  }
+
+  #strawberry-chicken-ingredients-container ul {
+    margin-left: 20px;
+  }
 }

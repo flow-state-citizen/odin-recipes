@@ -16,7 +16,11 @@ p {
 }
 
 #filet-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 20px;
+  width: 500px;
 }
 
 #filet-image {
@@ -44,4 +48,36 @@ p {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+  #page-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #left-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #filet-mignon-image-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+  }
+
+  #filet-mignon-ingredients-container {
+    transition: cubic-bezier(1, 0, 0, 1) 1s;
+    width: 500px;
+  }
+
+  #filet-mignon-ingredients-container ul {
+    margin-left: 20px;
+  }
 }
