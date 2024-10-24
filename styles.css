@@ -17,13 +17,28 @@ a {
   font-weight: bold;
 }
 
+.hover {
+  cursor: pointer;
+}
+
 /* Section 1: Header */
 #header-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
   background-color: #778c80;
   height: 100%;
+}
+
+@media (max-width: 1120px) {
+  #header-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+  }
 }
 
 #header-title {
@@ -84,6 +99,7 @@ a {
 #image-row-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
@@ -134,4 +150,9 @@ a {
 
 .steps-container li {
   line-height: 1.5;
+}
+
+.time {
+  color: #ba1628;
+  font-size: 25px;
 }
