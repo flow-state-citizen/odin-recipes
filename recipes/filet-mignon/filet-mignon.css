@@ -40,15 +40,6 @@ p {
   margin-left: 20px;
 }
 
-#right-page-container {
-  font-size: 25px;
-  padding: 5px;
-  background-color: #b2ac88;
-  border-radius: 10px;
-  opacity: 0.8;
-  line-height: 1.5;
-}
-
 #footer-container {
   text-align: center;
   margin-top: 20px;
